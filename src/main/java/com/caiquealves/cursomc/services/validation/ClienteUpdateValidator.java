@@ -17,7 +17,7 @@ import com.caiquealves.cursomc.repositories.ClienteRepository;
 import com.caiquealves.cursomc.resources.exceptions.FieldMessage;
 
 public class ClienteUpdateValidator implements ConstraintValidator<ClienteUpdate, ClienteDTO> {
-
+ 
 	@Autowired
 	private HttpServletRequest request;
 
